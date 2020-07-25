@@ -1,0 +1,25 @@
+header{
+    background-size: cover;
+    color: thistle;
+    text-align: center;
+    margin-top: -32px;
+    
+}
+header h1{
+    padding-top:10%;
+    font-size: 50px;
+}
+
+header p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: 700;
+    background-color: turquoise;
+    padding: 15px;
+    border-radius: 2px;
+    display: inline-block;
+}

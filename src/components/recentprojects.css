@@ -1,0 +1,65 @@
+.container{
+    text-align: center;
+    background-color: teal;
+    margin-top: -19px;
+    padding-top: 20px;   
+}
+.container .title{
+    background-color: thistle;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.project4 , .project3 , .project2 , .project1{
+    background-color: transparent;
+    min-height: 250px;
+    min-width: 350px;
+    margin: 10px;
+    text-align: end;
+    background-position: center;
+    background-size: 300px 280px;
+    background-repeat: no-repeat;
+    overflow: auto;
+    transition: 0.8s;
+    border: 2px solid rgb(185, 118, 185);
+    border-radius: 20px;
+    opacity: 1;
+    
+}
+
+.project1{
+    background-image: url(../images/p2.png);
+}
+.project2{
+    background-image: url(../images/android.jpeg);
+}
+.project3{
+    background-image: url(../images/shopping.jpg);
+}
+
+.project4{
+    background-image: url(../images/webproject.jpg);
+   
+}
+
+.project1:hover , .project2:hover , .project3:hover, .project4:hover  {
+    opacity: 0.8;
+    transform: scale(0.9);
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.desc{
+    text-align: end;
+    margin-top: 90%;
+}
+
+.row1,.row2{
+    display: flex;
+    justify-content: center;
+}

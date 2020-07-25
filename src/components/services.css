@@ -1,0 +1,46 @@
+.services{
+    background-color: teal;
+    padding-top: 0px;
+    margin-top: -29px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.services h3
+{
+    font-size: 30spx;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+    padding: 10px;
+    background-color: thistle;
+    font-size: 30px;
+}
+
+.title{
+    font-size: 30px;
+    color: thistle;
+}
+
+.row{
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.services > .row span{
+    background-color: thistle;
+    width: 130px;
+    height: 80px;
+    display: block;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding-top: 35%;
+}
+
+.services .row span i{
+    font-size: 35px;
+}
+
+.services .row span h2{
+    margin-top: 65%;
+}

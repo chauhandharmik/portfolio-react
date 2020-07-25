@@ -1,0 +1,27 @@
+.logo
+{
+    font-size: 30px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:teal;
+    align-items: center;
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
